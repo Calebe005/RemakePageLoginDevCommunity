@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/*----------------Configuração geral da página-------------------*/
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(217, 222, 224);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+/*---------------Menu horizontal superior----------------------*/
+#menuSuperior{
+
+    height: 7%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px black;
+    display: flex;
+}
+#iconDevNav{
+
+    height: 75%;
+    width: 3%;
+    display: inline;
+    margin: auto 1% auto 15%;
+    position: relative;
+    border-radius: 3px;
+
+}
+
+#containerSearch{
+    height: 75%;
+    width:  25% ;
+    display: inline;
+    position: relative;
+    margin: auto 20% auto 0%;
+}
+
+.search{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 3px;
+    border-color: rgba(201, 200, 200, 0.857);
+
+}
+#botoesNav{
+
+    display: flex;
+    height: 75%;
+    width: 20%;
+    position: relative;
+    margin: auto 0%;
+
+}
+.iconsNav{
+
+    height: 100%;
+    width: 40px;
+    position: relative;
+    margin: 0% auto;
+    background-color: white;
+    border: none;  
+}
+.iconsNav img{
+
+    height: 60%;
+    width: 75%;
+
+}
+#write{
+
+    width: 40%;
+    display: inline;
+    font-size: 10px;
+    font-family: 'Archivo Black', sans-serif ;
+    background-color: rgb(51, 17, 175);
+    color: white;
+    border-radius: 3px;
+    
+
+}
+
+/*---------------------Conteúdo principal---------------------------*/
+.conteudo{
+
+    text-align: center;
+    margin-top: 1%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+#containerDevPrincipal{
+
+    height: 25%;
+    width: 13%;
+    margin: auto;
+
+}
+#logoDevPrincipal{
+
+    height: 100%;
+    width: 100%;
+    position:relative;
+
+}
+#containerTituloPrincipal{
+    margin: 1% auto 2%;
+}
+#tituloPrincipal{
+    font-family: 'Archivo Black', sans-serif ;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: auto;
+}
+#containerBotoesGitAndTwitter{  
+  
+    height: 7%;
+    width: 28%;
+    display: flex;
+    margin: 0px auto;
+
+}
+
+.buttonsGitAndTwitter{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: 0px 1%;
+    border: none;
+    border-radius: 3px;
+}
+#buttonGit{
+    background-color: rgb(77, 73, 73);
+}
+
+#buttonTwitter{
+    background-color: rgb(32, 163, 250);
+}
+
+.buttonsGitAndTwitter p{
+
+    font-family: 'Archivo Black', sans-serif ;
+    font-weight: lighter;
+    font-size: 10px;
+    display: inline;
+    position: relative;
+    margin: auto;
+    color: white;
+}
+.logosGitAndTwitter{
+
+    width: 20px;
+    height: 20px;
+    margin: auto 2%;
+    position: relative;
+}
+.frases{
+
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(59, 59, 59);
+
+}
+#weRequire{
+
+    margin: 1% auto 2%;
+
+}
+
+#containerForm{
+
+    background-color: white;
+    padding: 1% 2%;
+    margin: auto;
+    height: 50%;
+    width: 30%;
+    border-radius: 3px;
+    text-align: left;
+   
+}
+form{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.Dados{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 25%;
+    display: block;
+    position: relative
+}
+
+.Dados input{
+
+    position: relative;
+    border-radius: 3px;
+    border-color: rgb(219, 218, 218);
+    height: 50%;
+    width: 100%;
+
+}
+
+.Dados label{
+
+    height: 50%;
+    width: 100%;
+    position: relative;
+   
+}
+#buttonLog{
+
+    height: 10%;
+    width: 15%;
+    position: relative;
+    display: flex;
+    margin: 3% 0%;
+}
+#buttonLog input{
+
+    font-size: 12px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif ;
+    background-color: rgb(51, 17, 175);
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
